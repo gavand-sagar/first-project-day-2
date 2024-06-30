@@ -1,0 +1,125 @@
+div {
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  color: rgb(240, 240, 240);
+  margin: 5px;
+}
+
+.panel-container {
+  margin: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  text-align: center;
+  height: 200px;
+  background-color: rgb(171, 169, 169);
+}
+
+.heading {
+  padding: 10px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 10px;
+}
+
+.content {
+  padding: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.para {
+  overflow: hidden;
+  height: 100px;
+  background-color: antiquewhite;
+  transition: 1s;
+}
+
+.para.hidden {
+  height: 0px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: rgb(80, 80, 242); */
+  background: linear-gradient(to bottom, rgb(52, 52, 186), rgb(80, 80, 242), rgb(52, 52, 186));
+}
+
+.nav-links-container {
+  display: flex;
+  gap: 20px;
+}
+
+
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.login-page>.left {
+  flex: 1;
+  background: linear-gradient(to top right, purple, skyblue);
+}
+
+.login-page>.right {
+  flex: 1;
+  padding: 100px;
+}
+
+/* @media screen and (max-width:767px) {
+  .nav-links-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 300px;
+    width: 100px;
+    right: 0;
+    top: 0;
+  }
+} */
+
+.product {
+  display: inline-block;
+  width: 350px;
+  height: 650px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  margin: 15px;
+  padding: 10px;
+  position: relative;
+  vertical-align: top;
+}
+.product:hover{  
+  box-shadow: 0 0 15px -5px;
+}
+
+.status {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgb(78, 0, 0);
+  color: white;
+  padding: 5px;
+}
+
+.post-container{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
